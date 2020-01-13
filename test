@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>苏州台亿</title>
+<link href="type/main1.css" rel="stylesheet"  type="text/css" /> 
+<style type="text/css">
+
+
+
+
+</style>
+</head>
+
+<body><div id="theone">
+<div id="new">
+<div class="kb"><p>Contact Us</p><h6>|</h6><p>Home </p>
+</div>
+<div class="sbb">
+<img src="images/taiyi.png" width="60" height="70" />
+<h3>苏州台亿铝合升降机金有限公司</h3>
+<h2>&nbsp</h2>
+<ul >
+<li>网站首页</li>
+<li>公司简介</li>
+<li>产品展示</li>
+<li>售后服务</li>
+<li>在线订单</li>
+<li>联系我们</li>
+</ul>
+<img src="images/2018-03-30_154505.png" width="965" height="225" style=margin-top:0px;>
+
+
+</div>
+
+</div>
+<div id="null"></div>
+<div id="sidebar">
+<h3>产品分类</h3>
+<p>Product Classficition</p>
+<ul class="first">
+<li>&nbsp&nbsp固定式液压升降台</li>
+<li>&nbsp&nbsp固定式液压升降台</li>
+<li>&nbsp&nbsp固定式升降平台</li>
+<li>&nbsp&nbsp固定式升降货梯</li>
+<li>&nbsp&nbsp手推搬运车</li>
+<li>&nbsp&nbsp固定式升降平台</li>
+<li>&nbsp&nbsp固定式液压升降台</li>
+<li>&nbsp&nbsp固定式升降平台</li>
+<li>&nbsp&nbsp手推搬运车</li>
+<li>&nbsp&nbsp固定式液压升降台</li>
+<li>&nbsp&nbsp固定式升降平台</li>
+<li>&nbsp&nbsp手推搬运车</li>
+<li>&nbsp&nbsp固定式液压升降台</li>
+<li>&nbsp&nbsp手推搬运车</li>
+<li>&nbsp&nbsp固定式升降平台</li>
+
+</ul>
+<!--<h1 class="ten">&nbsp</h1>-->
+<ul style=list-style:none;>
+<li>&nbsp</li></ul>
+<h3>联系我们</h3>
+<p>Contact Us</p>
+<h2>&nbsp</h2>
+<ul class="second">
+<li>地&nbsp址: 苏州望亭镇迎湖工业园<br>
+  &nbsp;&nbsp&nbsp&nbsp;&nbsp;&nbsp&nbsp;&nbsp万丰路</li>
+<li>电&nbsp话: 0379-61234567<br>
+  &nbsp;&nbsp&nbsp&nbsp&nbsp;&nbsp&nbsp;&nbsp13346941701</li>
+<li>传&nbsp真: 0379-61234567</li>
+<li>邮&nbsp箱: wensui333@163.com</li><li>邮&nbsp编: 471000</li>
+
+
+
+
+
+</ul>
+
+
+</div>
+<div id="content1">
+<h1>&nbsp</h1>
+
+<h3>企业简介<span> About Us</span></h3><br /><br><br>
+<form>产品搜索：<input type="text" class="text" name="">&nbsp&nbsp&nbsp<input type="button" value="产品搜索" class="button"></form>
+<img  src="images/yyy.png" width="296" height="160" />
+<p>  &nbsp;&nbsp &nbsp;&nbsp;苏州台亿铝合金升降机有限公司是制造液压升降平台，升降机械的专业厂家，本厂生产设备精良，检测手段齐全，技术力里雄厚，各项性能和技术指标均达到国家行业标准。公司经过长期对液压升降平台的研制和探索，积累了丰富的经验，并引进了国内外先进的液压技术，拥有一批经验...
+
+
+</p>
+
+</div>
+<div id="content2">
+<h1>&nbsp</h1>
+<h3>产品展示<span> Product</span></h3><br><br> <!--img src="images/zzz.png" width="191" height="63"-> style=margin-left:25px ; />-->
+<div id="aa">
+ <dl><dd><img src="images/product1.png" /></dd>
+  <dt>固定式液压升降台</dt></dl>
+ 
+  <dl><dd><img src="images/cc.png" /></dd>
+  <dt>固定式液压升降台</dt></dl>
+  <dl><dd><img src="images/q.png" /></dd>
+  <dt>固定式升降台</dt></dl>
+  <dl><dd><img src="images/product4.png"/></dd>
+  <dt>手推搬运车</dt></dl>
+ </div>
+  <h2>&nbsp</h2>
+  <h4>产品分类&nbsp&nbsp<span>Recommed Products</span></h4>
+  <div id="aa">  <dl><dd><img src="images/producta.png" /></dd>
+  <dt>固定式液压升降台</dt></dl>
+  <dl><dd><img src="images/productb.png" /></dd>
+  <dt>固定式液压升降台</dt></dl>
+  <dl><dd><img src="images/productc.png"/></dd>
+  <dt>固定式升降台</dt></dl>
+  <dl><dd><img src="images/productd.png" /></dd>
+  <dt>手推搬运车</dt></dl>
+</div>
+</div>
+
+<div id="footer"><ul><li><span>公司简介</span>&nbsp|&nbsp<span>产品展示</span>&nbsp|&nbsp<span>售后服务</span>&nbsp|&nbsp<span>联系我们</span>&nbsp</li>
+ <li> 苏州台亿铝合金升降机有限公司版权所有Copyright@2009 www..yhj.com Corporation All Rights Reserved</li>
+<li>联系电话: 133469417010379-612345567传真: 0379-61234567 公司地址: 苏州市相城区望亭镇迎湖工业园万丰路技术支持: 苏商科技</li></ul>
+
+
+</div>
+</div></body>
+</html>
