@@ -1,391 +1,383 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
-<meta name="theme-color" content="#222">
-<meta name="generator" content="Hexo 4.2.0">
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
-  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>陈记面包坊</title>
 
-<link rel="stylesheet" href="/css/main.css">
+  <meta name="description" content="">
+  <meta name="theme-color" content="#444444">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/favicon.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="img/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
 
-
-<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
-
-
-<script id="hexo-configurations">
-  var NexT = window.NexT || {};
-  var CONFIG = {
-    hostname: new URL('http://yoursite.com').hostname,
-    root: '/',
-    scheme: 'Muse',
-    version: '7.7.0',
-    exturl: false,
-    sidebar: {"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},
-    copycode: {"enable":false,"show_result":false,"style":null},
-    back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
-    bookmark: {"enable":false,"color":"#222","save":"auto"},
-    fancybox: false,
-    mediumzoom: false,
-    lazyload: false,
-    pangu: false,
-    comments: {"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},
-    algolia: {
-      appID: '',
-      apiKey: '',
-      indexName: '',
-      hits: {"per_page":10},
-      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
-    },
-    localsearch: {"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
-    path: '',
-    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}
-  };
-</script>
-
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:locale" content="en_US">
-<meta property="article:author" content="John Doe">
-<meta name="twitter:card" content="summary">
-
-<link rel="canonical" href="http://yoursite.com/">
+  <link rel="stylesheet" href="styles.css">
+  <style type="text/css">
 
 
-<script id="page-configurations">
-  // https://hexo.io/docs/variables.html
-  CONFIG.page = {
-    sidebar: "",
-    isHome: true,
-    isPost: false
-  };
-</script>
-
-  <title>Hexo</title>
-  
-
-
-
-
-
-
-  <noscript>
-  <style>
-  .use-motion .brand,
-  .use-motion .menu-item,
-  .sidebar-inner,
-  .use-motion .post-block,
-  .use-motion .pagination,
-  .use-motion .comments,
-  .use-motion .post-header,
-  .use-motion .post-body,
-  .use-motion .collection-header { opacity: initial; }
-
-  .use-motion .site-title,
-  .use-motion .site-subtitle {
-    opacity: initial;
-    top: initial;
-  }
-
-  .use-motion .logo-line-before i { left: initial; }
-  .use-motion .logo-line-after i { right: initial; }
-  </style>
-</noscript>
-
+</style>
 </head>
+<body>
 
-<body itemscope itemtype="http://schema.org/WebPage">
-  <div class="container use-motion">
-    <div class="headband"></div>
 
-    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-container">
-  <div class="site-meta">
 
-    <div>
-      <a href="/" class="brand" rel="start">
-        <span class="logo-line-before"><i></i></span>
-        <span class="site-title">Hexo</span>
-        <span class="logo-line-after"><i></i></span>
-      </a>
+
+<div class="banner">
+  <div class="header">
+    <div class="header-inner container clear">
+      <a class="logo" href="#"><span class="sr">Lambda Logo</span></a>
+      <input type="checkbox" id="navigation-toggle-checkbox" name="navigation-toggle-checkbox" class="navigation-toggle-checkbox sr">
+      <label for="navigation-toggle-checkbox" class="navigation-toggle-label" onclick>
+        <span class="navigation-toggle-label-inner">
+          <span class="sr">Navigation</span>
+        </span>
+      </label>
+      <div class="navigation">
+        <ul class="navigation-menu">
+          <li class="navigation-item"><a href="#about">关于陈记</a></li>
+          <li class="navigation-item"><a href="#ingredients">面包原料</a></li>
+          <li class="navigation-item"><a href="#menu">面包种类</a></li>
+          <li class="navigation-item"><a href="#reviews">顾客评价</a></li>
+          <li class="navigation-item"><a href="#reservations">留言</a></li>
+        </ul>
+      <!--   <ul class="navigation-social">
+          <li class="navigation-item-social"><a class="social social-twitter" href="#"><span class="sr">Twitter</span></a></li>
+          <li class="navigation-item-social"><a class="social social-facebook" href="#"><span class="sr">Facebook</span></a></li>
+          <li class="navigation-item-social"><a class="social social-google-plus" href="#"><span class="sr">Google Plus</span></a></li>
+        </ul> -->
+      </div>
     </div>
   </div>
+<!--   <div class="banner-inner container">
+    <h1 class="banner-lead">
+      <span class="banner-lead-1">the right ingredients</span>
+      <span class="banner-lead-2">for the right food</span>
+    </h1>
+    <div class="banner-buttons">
+      <a href="#reservations" class="button button-primary">Book a table</a>
+      <a href="#menu" class="button button-secondary">See the menu</a>
+    </div>
+  </div>
+</div> -->
 
-  <div class="site-nav-toggle">
-    <div class="toggle" aria-label="Toggle navigation bar">
-      <span class="toggle-line toggle-line-first"></span>
-      <span class="toggle-line toggle-line-middle"></span>
-      <span class="toggle-line toggle-line-last"></span>
+<div id="about" class="content-block about-block">
+  <div class="about-block-inner container">
+    <div class="clear text-center">
+      <div class="about-block-content col-6-l">
+        <h2 class="heading">陈家香香酥饼</h2>
+        <p>
+         陈家香香酥饼有着百年的历史，原为皇家膳品，历经几代人的工艺改进，现走进千家万户，成为百姓美食 <br>
+          扶沟陈记面包坊 <br>
+          
+        </p>
+        <img class="img-fluid about-chef" src="img/chef.png" alt="">
+      </div>
+      <div class="about-block-img col-6-l none-m block-l">
+        <img class="img-fluid" src="img/dish.png" alt="">
+      </div>
     </div>
   </div>
 </div>
 
-
-<nav class="site-nav">
-  
-  <ul id="menu" class="menu">
-        <li class="menu-item menu-item-home">
-
-    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>Home</a>
-
-  </li>
-        <li class="menu-item menu-item-archives">
-
-    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>Archives</a>
-
-  </li>
-  </ul>
-
-</nav>
-</div>
-    </header>
-
-    
-  <div class="back-to-top">
-    <i class="fa fa-arrow-up"></i>
-    <span>0%</span>
-  </div>
-
-
-    <main class="main">
-      <div class="main-inner">
-        <div class="content-wrap">
-          
-
-          <div class="content">
-            
-
-  <div class="posts-expand">
-        
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/01/17/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="John Doe">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/01/17/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
-        </h1>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-
-              <time title="Created: 2020-01-17 16:55:26" itemprop="dateCreated datePublished" datetime="2020-01-17T16:55:26+08:00">2020-01-17</time>
-            </span>
-
-          
-
+<div id="ingredients" class="content-block ingredients-block">
+  <div class="ingredients-block-inner container clear">
+    <div class="feature-box text-center col-6-l right-m">
+      <h2 class="heading-secondary">优质原料</h2>
+      <div class="feature-box-content">
+        <p>
+          老北京陈记面包采用上等高筋小麦粉，精炼植物油，优质白砂糖等原料烘焙而成，口感酥脆，色泽金黄 <br>
+         老北京陈记面包采用上等高筋小麦粉，精炼植物油，优质白砂糖等原料烘焙而成，口感酥脆，色泽金黄<br>
+          Stop in today and check us out!
+        </p>
+        <div class="feature-image-group clear">
+          <img class="img-fluid feature-image feature-image-1" src="img/01-wheat.jpg" alt="">
+          <img class="img-fluid feature-image feature-image-2" src="img/02-spices.jpg" alt="">
+          <img class="img-fluid feature-image feature-image-3" src="img/03-bread.jpg" alt="">
         </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-      
+      </div>
     </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
   </div>
-
-  
-
+</div>
 
 
-          </div>
-          
+<div id="menu" class="content-block food-menu-block">
+  <div class="food-menu-block-inner container">
+    <div class="clear">
+      <div class="food-menu-content">
+        <h2 class="heading">精选面包</h2>
+        <ul class="food-menu-list">
+          <li class="food-menu-item">
+            <div class="food-menu-item-header clear">
+              <h3 class="food-menu-heading">咸味面包</h3>
+              <span class="food-menu-price">6.00元/斤</span>
+            </div>
+            <div class="food-menu-summary">
+              <p>
+              新鲜的咸味面包，入口酥脆
+              </p>
+            </div>
+          </li>
+          <li class="food-menu-item">
+            <div class="food-menu-item-header clear">
+              <h3 class="food-menu-heading">甜味面包</h3>
+              <span class="food-menu-price">6.00元/斤</span>
+            </div>
+            <div class="food-menu-summary">
+              <p>
+新鲜的甜味面包，入口酥脆              </p>
+            </div>
+          </li>
+          <li class="food-menu-item">
+            <div class="food-menu-item-header clear">
+              <h3 class="food-menu-heading">圆面包</h3>
+              <span class="food-menu-price">6.00元/斤</span>
+            </div>
+            <div class="food-menu-summary">
+              <p>
+                新鲜的咸味面包，入口酥脆
+              </p>
+            </div>
+          </li>
+        </ul>
 
-<script>
-  window.addEventListener('tabs:register', () => {
-    let activeClass = CONFIG.comments.activeClass;
-    if (CONFIG.comments.storage) {
-      activeClass = localStorage.getItem('comments_active') || activeClass;
-    }
-    if (activeClass) {
-      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
-      if (activeTab) {
-        activeTab.click();
-      }
-    }
-  });
-  if (CONFIG.comments.storage) {
-    window.addEventListener('tabs:click', event => {
-      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
-      let commentClass = event.target.classList[1];
-      localStorage.setItem('comments_active', commentClass);
-    });
-  }
-</script>
+       <!--  <h2 class="heading">Salads</h2>
+        <ul class="food-menu-list">
+          <li class="food-menu-item">
+            <div class="food-menu-item-header clear">
+              <h3 class="food-menu-heading">Olive Special</h3>
+              <span class="food-menu-price">6.00元/斤</span>
+            </div>
+            <div class="food-menu-summary">
+              <p>
+                Refreshing traditional cucumber and garlic in yoghurt dip.
+              </p>
+            </div>
+          </li>
+          <li class="food-menu-item food-menu-item-special">
+            <div class="food-menu-item-header clear">
+              <h3 class="food-menu-heading">Greek Salad</h3>
+              <span class="food-menu-price">$5.50</span>
+            </div>
+            <div class="food-menu-summary">
+              <p>
+                Pureed eggplant garlic, green pepper and tomato dip.
+              </p>
+            </div>
+          </li>
+          <li class="food-menu-item">
+            <div class="food-menu-item-header clear">
+              <h3 class="food-menu-heading">Gusto Salad</h3>
+              <span class="food-menu-price">$5.25</span>
+            </div>
+            <div class="food-menu-summary">
+              <p>
+                Pureed eggplant garlic, green pepper and tomato dip.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="food-menu-content">
+        <h2 class="heading">Starters</h2>
+        <ul class="food-menu-list">
+          <li class="food-menu-item">
+            <div class="food-menu-item-header clear">
+              <h3 class="food-menu-heading">Haloumi</h3>
+              <span class="food-menu-price">$3.99</span>
+            </div>
+            <div class="food-menu-summary">
+              <p>
+                Refreshing traditional cucumber and garlic in yoghurt dip.
+              </p>
+            </div>
+          </li>
+          <li class="food-menu-item">
+            <div class="food-menu-item-header clear">
+              <h3 class="food-menu-heading">Spinach Pie</h3>
+              <span class="food-menu-price">$5.50</span>
+            </div>
+            <div class="food-menu-summary">
+              <p>
+                Pureed eggplant garlic, green pepper and tomato dip.
+              </p>
+            </div>
+          </li>
+        </ul>
 
+        <h2 class="heading">Main Dishes</h2>
+        <ul class="food-menu-list">
+          <li class="food-menu-item">
+            <div class="food-menu-item-header clear">
+              <h3 class="food-menu-heading">Cornish Mackerel</h3>
+              <span class="food-menu-price">$5.99</span>
+            </div>
+            <div class="food-menu-summary">
+              <p>
+                Refreshing traditional cucumber and garlic in yoghurt dip.
+              </p>
+            </div>
+          </li>
+          <li class="food-menu-item food-menu-item-special">
+            <div class="food-menu-item-header clear">
+              <h3 class="food-menu-heading">Roast Lamb</h3>
+              <span class= --><!-- "food-menu-price">$5.50</span> -->
+          <!--   </div>
+            <div class="food-menu-summary">
+              <p>
+                Pureed eggplant garlic, green pepper and tomato dip.
+              </p>
+            </div>
+          </li>
+          <li class="food-menu-item">
+            <div class="food-menu-item-header clear">
+              <h3 class="food-menu-heading">Fried Chicken</h3>
+              <span class="food-menu-price">$5.25</span>
+            </div>
+            <div class="food-menu-summary">
+              <p>
+                Pureed eggplant garlic, green pepper and tomato dip.
+              </p>
+            </div>
+          </li>
+          <li class="food-menu-item">
+            <div class="food-menu-item-header clear">
+              <h3 class="food-menu-heading">Pastitsio</h3>
+              <span class="food-menu-price">$5.99</span>
+            </div>
+            <div class="food-menu-summary">
+              <p>
+                Pureed eggplant garlic, green pepper and tomato dip.
+              </p> -->
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="reviews" class="content-block reviews-block">
+  <div class="reviews-block-inner container">
+    <div class="feature-box text-center col-12-m col-8-l no-float center">
+      <h2 class="heading-secondary">顾客评价</h2>
+      <blockquote class="pad-30">
+        <p>
+          香酥面包真的是入口酥脆香酥面包真的是入口酥脆香酥面包真的是入口酥脆香酥面包真的是入口酥脆香酥面包真的是入口酥脆香酥面包真的是入口酥脆香酥面包真的是入口酥脆香酥面包真的是入口酥脆香酥面包真的是入口酥脆香酥面包真的是入口酥脆香酥面包真的是入口酥脆香酥面包真的是入口酥脆香酥面包真的是入口酥脆
+        </p>
+        <cite>
+          DELICIOUS BREAD
+        </cite>
+      </blockquote>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="reservations" class="content-block reservations-block">
+  <div class="reservations-block-inner container">
+    <div class="clear">
+      <div class="reservation-block-img col-3-l none block-l">
+        <img class="img-fluid " src="img/food-01.jpg" alt="Food">
+      </div>
+      <div class="reservation-block-img col-6-m col-3-l none block-m">
+        <img class="img-fluid " src="img/food-02.jpg" alt="Food">
+      </div>
+      <div class="reservation-block-form col-6-m">
+        <div class="text-center">
+          <h2 class="heading">只做好面包</h2>
+          <p>
+           如果您还没有品尝过我们的面包，请您来品尝
+           如果您已经品尝过，我们相信您还会再来
+          </p>
         </div>
-          
-  
-  <div class="toggle sidebar-toggle">
-    <span class="toggle-line toggle-line-first"></span>
-    <span class="toggle-line toggle-line-middle"></span>
-    <span class="toggle-line toggle-line-last"></span>
-  </div>
-
-  <aside class="sidebar">
-    <div class="sidebar-inner">
-
-      <ul class="sidebar-nav motion-element">
-        <li class="sidebar-nav-toc">
-          Table of Contents
-        </li>
-        <li class="sidebar-nav-overview">
-          Overview
-        </li>
-      </ul>
-
-      <!--noindex-->
-      <div class="post-toc-wrap sidebar-panel">
+       <!--  <form class="reservations-form">
+          <fieldset class="reservations-form-wrap">
+            <legend class="sr">Contact Us</legend>
+            <div class="clear">
+              <div class="col-6-m pad-top-10 pad-bottom-10">
+                <label class="block strong" for="name">Name</label>
+                <input name="full-name" class="field" id="name" type="text" placeholder="your name *">
+              </div>
+              <div class="col-6-m pad-top-10 pad-bottom-10">
+                <label class="block strong" for="email">Email</label>
+                <input name="email" class="field" id="email" type="email" placeholder="your email *">
+              </div>
+            </div>
+            <div class="clear">
+              <div class="col-6-m pad-top-10 pad-bottom-10">
+                <label class="block strong" for="date">Date</label>
+                <input name="date-of-booking" class="field" id="date" type="text" placeholder="date *">
+              </div>
+              <div class="col-6-m pad-top-10 pad-bottom-10">
+                <label class="block strong" for="party-size">Party size</label>
+                <span class="select">
+                  <select class="field" name="party-size" id="party-size">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                  </select>
+                </span>
+              </div>
+            </div>
+            <div class="text-center">
+              <input type="submit" class="button reservations-submit" value="Book now!">
+            </div>
+          </fieldset>
+        </form> -->
       </div>
-      <!--/noindex-->
-
-      <div class="site-overview-wrap sidebar-panel">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-  <p class="site-author-name" itemprop="name">John Doe</p>
-  <div class="site-description" itemprop="description"></div>
-</div>
-<div class="site-state-wrap motion-element">
-  <nav class="site-state">
-      <div class="site-state-item site-state-posts">
-          <a href="/archives/">
-        
-          <span class="site-state-item-count">1</span>
-          <span class="site-state-item-name">posts</span>
-        </a>
-      </div>
-  </nav>
-</div>
-
-
-
-      </div>
-
     </div>
-  </aside>
-  <div id="sidebar-dimmer"></div>
-
-
-      </div>
-    </main>
-
-    <footer class="footer">
-      <div class="footer-inner">
-        
-
-<div class="copyright">
-  
-  &copy; 
-  <span itemprop="copyrightYear">2020</span>
-  <span class="with-love">
-    <i class="fa fa-user"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">John Doe</span>
+  </div>
 </div>
-  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> v4.2.0
-  </div>
-  <span class="post-meta-divider">|</span>
-  <div class="theme-info">Theme – <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> v7.7.0
-  </div>
-
-        
 
 
 
-
-
-
-
-
+<div class="footer">
+  <div class="footer-inner container">
+    <div class="clear">
+      <div class="footer-column col-4-l">
+        <h3 class="footer-heading">关于我们</h3>
+        <p>
+          扶沟老北京香酥面包位于南园高中校内，欢迎品尝！.扶沟老北京香酥面包位于南园高中校内，欢迎品尝！.扶沟老北京香酥面包位于南园高中校内，欢迎品尝！.扶沟老北京香酥面包位于南园高中校内，欢迎品尝！.扶沟老北京香酥面包位于南园高中校内，欢迎品尝！.
+        </p>
       </div>
-    </footer>
+      <div class="footer-column col-4-l">
+        <h3 class="footer-heading">营业时间</h3>
+        <p>
+          <strong>工作日：</strong> 7.00am - 8.00pm <br>
+          <strong>节假日:</strong> 7.00am - 10.00pm
+        </p>
+     <!--    <ul class="payment-types icon-list-inline">
+          <li><span class="payment payment-mastercard"><span class="sr">Mastercard</span></a></li>
+          <li><span class="payment payment-visa"><span class="sr">Visa</span></span></li>
+          <li><span class="payment payment-american-express"><span class="sr">American Express</span></span></li>
+          <li><span class="payment payment-paypal"><span class="sr">PayPal</span></span></li>
+        </ul> -->
+      </div>
+      <div class="footer-column col-4-l">
+        <h3 class="footer-heading">地址</h3>
+        <p>
+          周口市扶沟县<br>
+          扶沟县第二高级中学<br>
+          技术支持：<a href="http://www.sias.edu.cn/" target="_blank" title="模板之家">郑州西亚斯学院</a><!--  - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a> -->
+        </p>
+        <ul class="footer-social-list icon-list-inline">
+        <!--   <li class="navigation-item-social"><a class="social social-twitter" href="#"><span class="sr">Twitter</span></a></li>
+          <li class="navigation-item-social"><a class="social social-facebook" href="#"><span class="sr">Facebook</span></a></li>
+          <li class="navigation-item-social"><a class="social social-google-plus" href="#"><span class="sr">Google Plus</span></a></li>
+          <li class="navigation-item-social"><a class="social social-youtube" href="#"><span class="sr">YouTube</span></a></li> -->
+        </ul>
+      </div>
+    </div>
   </div>
+</div>
 
-  
-  <script src="/lib/anime.min.js"></script>
-  <script src="/lib/velocity/velocity.min.js"></script>
-  <script src="/lib/velocity/velocity.ui.min.js"></script>
-
-<script src="/js/utils.js"></script>
-
-<script src="/js/motion.js"></script>
-
-
-<script src="/js/schemes/muse.js"></script>
-
-
-<script src="/js/next-boot.js"></script>
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-  
+<script src="wow.js"></script>
+<script src="webfontloader.js"></script>
+<script src="default.js"></script>
 
 </body>
 </html>
